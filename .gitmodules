@@ -1,6 +1,6 @@
 [submodule "VTK"]
 	path = VTK
-	url = https://gitlab.kitware.com/vtk/vtk.git
+	url = https://github.com/sakjain92/VTK.git
 [submodule "Utilities/VisItBridge"]
 	path = Utilities/VisItBridge
 	url = https://gitlab.kitware.com/paraview/visitbridge.git
