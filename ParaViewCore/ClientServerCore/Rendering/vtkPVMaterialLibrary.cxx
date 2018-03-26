@@ -59,7 +59,7 @@ vtkPVMaterialLibrary::vtkPVMaterialLibrary()
 
   // and we look in some default locations relative to the exe
   auto vtklibs = vtkGetLibraryPathForSymbol(GetVTKVersion);
-  assert(!vtklibs.empty);
+  //assert(!vtklibs.empty);
 
   // where materials might be in relation to that
   std::vector<std::string> prefixes = {

@@ -59,7 +59,7 @@ macro(pv_find_package_qt out_targets_var)
 
   set(_qt_targets)
   set(_qt_var_prefix Qt5)
-  set(_qt_min_version "5.6")
+  set(_qt_min_version "5.5")
   set(_qt_official_version "5.9")
   set(args)
   if(qt5_components)
