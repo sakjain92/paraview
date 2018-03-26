@@ -1,0 +1,7 @@
+sudo apt update
+sudo apt upgrade
+sudo apt install mesa-common-dev freeglut3-dev #OpenGL
+sudo apt install libqt5xmlpatterns5-dev qtbase5-dev libqt5x11extras5-dev qttools5-dev qttools5-dev-tools qt5-default #Qt
+sudo apt install librdmacm-dev # For RDMA
+sudo apt install x11-xserver-utils # For X11 forwarding
+sudo apt install vim-gnome # For gvim (Optional)
