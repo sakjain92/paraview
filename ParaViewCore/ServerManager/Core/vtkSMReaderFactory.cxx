@@ -260,10 +260,13 @@ bool vtkSMReaderFactory::vtkInternals::vtkValue::CanReadFile(const char* filenam
     return false;
   }
 
+/* XXX: Allow paraview's H5Part reader to read directory.
+ * TODO: Find out when is IsDirectory set?
   if (is_dir != this->IsDirectory)
   {
     return false;
   }
+*/
 
   if (!skip_filename_test)
   {
